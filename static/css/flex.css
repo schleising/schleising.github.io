@@ -69,6 +69,10 @@
   background-color: teal;
 }
 
+.aquamarine-box {
+  background-color: aquamarine;
+}
+
 a:hover {
   color: pink;
 }
