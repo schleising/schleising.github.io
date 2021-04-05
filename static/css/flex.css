@@ -88,6 +88,14 @@ h1:hover {
   background-color: tan;
 }
 
+h2:hover {
+  background-color: aliceblue;
+}
+
+h6:hover {
+  background-color: cornflowerblue;
+}
+
 footer:hover {
   background-color: darkcyan;
 }
