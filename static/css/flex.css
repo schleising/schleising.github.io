@@ -1,10 +1,5 @@
-.flex-container {
-  display: flex;
+.outer-container {
   height: 100vh;
-}
-
-.flex-parent {
-  display: flex;
 }
 
 .default-padding {
@@ -13,7 +8,6 @@
 
 .purple-box {
   background-color: purple;
-  flex-direction: column;
 }
 
 .salmon-box {
@@ -23,35 +17,18 @@
 
 .sky-blue-box {
   background-color: skyblue;
-  flex-direction: row;
-  overflow-y: scroll;
-}
-
-.blue-box {
-  background-color: dodgerblue;
 }
 
 .grey-box {
-  flex-direction: column;
   background-color: gainsboro;
-  overflow-y: scroll;
-}
-
-.red-box {
-  background-color: red;
+  min-width: fit-content;
 }
 
 .yellow-box {
-  flex-direction: row;
-  align-content: flex-start;
   background-color: yellow;
-  overflow-y: scroll;
-  flex-wrap: wrap;
 }
 
 .green-box {
-  flex: 1 0 0;
-  align-items: flex-start;
   background-color: greenyellow;
   color: red;
   margin: 2px;
@@ -64,7 +41,6 @@
 .powder-blue-box {
   background-color: powderblue;
   margin: 4px;
-  border-color: rosybrown;
 }
 
 .powder-blue-box:hover {
