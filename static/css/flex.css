@@ -9,6 +9,9 @@
 
 .flex-child {
   display: flex;
+}
+
+.default-padding {
   padding: 5px;
 }
 
@@ -75,8 +78,13 @@
 
 a:hover {
   color: pink;
+  background-color: darkgoldenrod;
 }
 
 h1:hover {
   background-color: tan;
+}
+
+footer:hover {
+  background-color: darkcyan;
 }
