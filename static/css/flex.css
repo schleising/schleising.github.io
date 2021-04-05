@@ -22,6 +22,7 @@
 
 .salmon-box {
   background-color: salmon;
+  align-items: center;
 }
 
 .sky-blue-box {
@@ -89,4 +90,8 @@ h1:hover {
 
 footer:hover {
   background-color: darkcyan;
+}
+
+.on-the-left {
+  margin-left: auto;
 }
