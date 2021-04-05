@@ -6,84 +6,69 @@
   padding: 5px;
 }
 
-.purple-box {
-  background-color: purple;
-}
-
-.salmon-box {
-  background-color: salmon;
+.header-container {
+  background-color: whitesmoke;
   align-items: center;
 }
 
-.dodger-blue-box {
+.main-container {
   background-color: dodgerblue;
 }
 
-.grey-box {
-  background-color: gainsboro;
+.sidebar-container {
+  background-color: whitesmoke;
   min-width: fit-content;
 }
 
-.yellow-box {
-  background-color: yellow;
+.content-container {
+  background-color: whitesmoke;
 }
 
-.green-box {
-  background-color: greenyellow;
-  color: red;
+.content-item-container {
+  background-color: rgb(235, 235, 235);
   margin: 2px;
 }
 
-.green-box:hover {
-  background-color: cornflowerblue;
+.content-item-container:hover {
+  background-color: rgb(225, 225, 225);
 }
 
-.powder-blue-box {
-  background-color: powderblue;
+.sidebar-item-container {
+  background-color: rgb(235, 235, 235);
   margin: 4px;
 }
 
-.powder-blue-box:hover {
-  background-color: teal;
+.sidebar-item-container:hover {
+  background-color: rgb(225, 225, 225);
 }
 
-.aquamarine-box {
-  background-color: aquamarine;
+.footer-container {
+  background-color: whitesmoke;
 }
 
 h1 {
   margin-bottom: 0px;
+  margin-left: 4px;
+  margin-right: 4px;
 }
 
 h4 {
   margin-bottom: 0px;
+  margin-left: 4px;
+  margin-right: 4px;
 }
 
 h6 {
   margin-bottom: 0px;
-}
-
-a:hover {
-  color: pink;
-  background-color: darkgoldenrod;
-}
-
-h1:hover {
-  background-color: tan;
-}
-
-h4:hover {
-  background-color: aliceblue;
-}
-
-h6:hover {
-  background-color: cornflowerblue;
-}
-
-footer:hover {
-  background-color: darkcyan;
+  margin-left: 4px;
+  margin-right: 4px;
 }
 
 .on-the-right {
   margin-left: auto;
+}
+
+btn {
+  margin-left: 4px;
+  margin-right: 4px;
 }
