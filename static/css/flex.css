@@ -53,9 +53,11 @@
 }
 
 .green-box {
+  flex: 1 0 0;
   align-items: flex-start;
   background-color: greenyellow;
   color: red;
+  margin: 2px;
 }
 
 .green-box:hover {
